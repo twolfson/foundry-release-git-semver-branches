@@ -10,16 +10,19 @@ This was built for [`gratipay/gratipay-badge`][], a donation button for Gratipay
 ## Getting Started
 Install the module with: `npm install foundry-release-git-semver-branches`
 
-```js
-var foundry_release_git_semver_branches = require('foundry-release-git-semver-branches');
-foundry_release_git_semver_branches.awesome(); // "awesome"
+After installation, `foundry` will automatically detect it in your `node_modules`.
+
+```bash
+foundry release 1.0.0
+# Releases and pushes `1.x.x` and `1.0.x` branch
 ```
 
 ## Documentation
-_(Coming soon)_
+This library was build to match the [foundry plugin specification][spec]. Documentation can be found at:
 
-## Examples
-_(Coming soon)_
+https://github.com/twolfson/foundry-release-spec
+
+[spec]: https://github.com/twolfson/foundry-release-spec
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint via [grunt](https://github.com/gruntjs/grunt) and test via `npm test`.
