@@ -43,7 +43,7 @@
     "sinon": "~1.8.1"
   },
   "keywords": [
-    "foundry-plugin",
+    "foundry-release",
     "git",
     "semver",
     "branch"
