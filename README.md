@@ -1,6 +1,11 @@
 # foundry-release-git-semver-branches [![Build status](https://travis-ci.org/twolfson/foundry-release-git-semver-branches.png?branch=master)](https://travis-ci.org/twolfson/foundry-release-git-semver-branches)
 
-Foundry plugin that creates semver branches (e.g. `1.x.x`, `1.2.x`)
+[Foundry][] plugin that creates semver branches (e.g. `1.x.x`, `1.2.x`)
+
+This was built for [`gratipay/gratipay-badge`][], a donation button for Gratipay. We needed a variable way to reference the latest image without hotlinking to `master`.
+
+[foundry]: https://github.com/twolfson/foundry
+[`gratipay/gratipay-badge`]: https://github.com/gratipay/gratipay-badge
 
 ## Getting Started
 Install the module with: `npm install foundry-release-git-semver-branches`
