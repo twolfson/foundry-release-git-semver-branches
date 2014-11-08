@@ -1,32 +1,34 @@
-# foundry-release-git [![Build status](https://travis-ci.org/twolfson/foundry-release-git.png?branch=master)](https://travis-ci.org/twolfson/foundry-release-git)
+# foundry-release-git-semver-branches [![Build status](https://travis-ci.org/twolfson/foundry-release-git-semver-branches.png?branch=master)](https://travis-ci.org/twolfson/foundry-release-git-semver-branches)
 
-[git][] release library for [foundry][]
+Foundry plugin that creates semver branches (e.g. `1.x.x`, `1.2.x`)
 
-This is plugin creates reference commits and `git tag's` for [foundry][], a plugin based release management library.
+## Getting Started
+Install the module with: `npm install foundry-release-git-semver-branches`
 
-[git]: http://git-scm.com/
-[foundry]: https://github.com/twolfson/foundry
+```js
+var foundry_release_git_semver_branches = require('foundry-release-git-semver-branches');
+foundry_release_git_semver_branches.awesome(); // "awesome"
+```
 
 ## Documentation
-This library was build to match the [foundry plugin specification][spec]. Documentation can be found at:
+_(Coming soon)_
 
-https://github.com/twolfson/foundry-release-spec
-
-[spec]: https://github.com/twolfson/foundry-release-spec
+## Examples
+_(Coming soon)_
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint via [grunt](https://github.com/gruntjs/grunt) and test via `npm test`.
 
 ## Donating
-Support this project and [others by twolfson][gittip] via [gittip][].
+Support this project and [others by twolfson][gratipay] via [gratipay][].
 
-[![Support via Gittip][gittip-badge]][gittip]
+[![Support via Gratipay][gratipay-badge]][gratipay]
 
-[gittip-badge]: https://rawgithub.com/twolfson/gittip-badge/master/dist/gittip.png
-[gittip]: https://www.gittip.com/twolfson/
+[gratipay-badge]: https://cdn.rawgit.com/gratipay/gratipay-badge/2.x.x/dist/gratipay.png
+[gratipay]: https://www.gratipay.com/twolfson/
 
 ## Unlicense
-As of Feb 03 2014, Todd Wolfson has released this repository and its contents to the public domain.
+As of Nov 07 2014, Todd Wolfson has released this repository and its contents to the public domain.
 
 It has been released under the [UNLICENSE][].
 

@@ -1,8 +1,8 @@
 {
-  "name": "foundry-release-git",
-  "description": "git release library for foundry",
-  "version": "1.1.0",
-  "homepage": "https://github.com/twolfson/foundry-release-git",
+  "name": "foundry-release-git-semver-branches",
+  "description": "Foundry plugin that creates semver branches (e.g. `1.x.x`, `1.2.x`)",
+  "version": "1.0.0",
+  "homepage": "https://github.com/twolfson/foundry-release-git-semver-branches",
   "author": {
     "name": "Todd Wolfson",
     "email": "todd@twolfson.com",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/twolfson/foundry-release-git.git"
+    "url": "git://github.com/twolfson/foundry-release-git-semver-branches.git"
   },
   "bugs": {
-    "url": "https://github.com/twolfson/foundry-release-git/issues"
+    "url": "https://github.com/twolfson/foundry-release-git-semver-branches/issues"
   },
   "licenses": [
     {
       "type": "UNLICENSE",
-      "url": "https://github.com/twolfson/foundry-release-git/blob/master/UNLICENSE"
+      "url": "https://github.com/twolfson/foundry-release-git-semver-branches/blob/master/UNLICENSE"
     }
   ],
-  "main": "lib/foundry-release-git",
+  "main": "lib/foundry-release-git-semver-branches",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -42,10 +42,9 @@
     "sinon": "~1.8.1"
   },
   "keywords": [
-    "foundry",
-    "foundry-release",
+    "foundry-plugin",
     "git",
-    "tag",
-    "release"
+    "semver",
+    "branch"
   ]
 }
