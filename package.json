@@ -1,7 +1,7 @@
 {
   "name": "foundry-release-git-semver-branches",
   "description": "Foundry command that creates semver branches (e.g. `1.x.x`, `1.2.x`)",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/twolfson/foundry-release-git-semver-branches",
   "author": {
     "name": "Todd Wolfson",
