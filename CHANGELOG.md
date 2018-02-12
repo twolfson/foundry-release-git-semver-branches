@@ -1,4 +1,6 @@
 # foundry-release-git-semver-branches changelog
+2.0.1 - Moved to Node.js>=4
+
 2.0.0 - Added CLI support to move to 2.0.0 spec
 
 1.1.0 - Fixed invalid keyword

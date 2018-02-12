@@ -1,7 +1,7 @@
 {
   "name": "foundry-release-git-semver-branches",
   "description": "Foundry command that creates semver branches (e.g. `1.x.x`, `1.2.x`)",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/twolfson/foundry-release-git-semver-branches",
   "author": {
     "name": "Todd Wolfson",
@@ -26,7 +26,7 @@
     "foundry-release-git-semver-branches": "bin/foundry-release-git-semver-branches"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4.0.0"
   },
   "scripts": {
     "test": "(test \"$VAGRANT\" = \"true\" || test \"$TRAVIS\" = \"true\" || (echo \"Tests must be run in enclosed environment (e.g. Vagrant, Travis) to prevent accidental publishes\n\" 1>&2 && exit 1)) && mocha --recursive"
